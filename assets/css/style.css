@@ -43,6 +43,9 @@
 .color-purple {
   color: #996399 !important;
 }
+.color-light-purple {
+  color: #a38bbf;
+}
 .bg-purple {
   background-color: #996399 !important;
 }
@@ -52,4 +55,27 @@
 
 .rounded-10 {
   border-radius: 10px;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.logo:hover {
+  color: #996399 !important;
+  font-size: larger;
+}
+
+#landing .card {
+  width: 24rem;
+  height: 30rem;
+}
+#landing .sub-card {
+  width: 16rem;
+  z-index: 99;
+}
+#landing .sub-cards {
+  width: 12rem;
+  height: 180px !important;
+  /* z-index: 99; */
 }

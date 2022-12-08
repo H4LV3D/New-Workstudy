@@ -39,10 +39,18 @@
 
     <header class="row fixed-top mt-3">
       <nav class="navbar navbar-expand-lg navbar-light py-3">
-        <div class="container">
-          <a class="navbar-brand font-noto" href="/">Work-Study</a>
+        <div
+          class="d-lg-none container rounded-10 py-3 shadow-sm border bg-light mx-4"
+        >
+          <a
+            class="navbar-brand font-noto logo d-flex justify-content-center align-items-center color-purple"
+            href="/"
+          >
+            <i class="fas fa-home fa-md fa-fw pr-3 color-light-purple"></i>
+            <h4 class="my-auto color-light-purple">Work-Study</h4>
+          </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler shadow-none border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -50,37 +58,57 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-bars fa-lg fa-fw"></i>
+          </button>
+        </div>
+
+        <div class="container d-none d-lg-block">
+          <a
+            class="navbar-brand font-noto logo d-flex justify-content-start align-items-center"
+            href="/"
+          >
+            <i class="fas fa-home fa-md fa-fw pr-3 color-light-purple"></i>
+            <h4 class="my-auto color-light-purple">Work-Study</h4>
+          </a>
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars fa-lg fa-fw"></i>
           </button>
         </div>
       </nav>
     </header>
     <div class="row vh-100 hero">
       <div
-        class="col-6 d-flex align-items-center justify-content-center pl-md-5"
+        class="col-12 col-lg-6 d-flex align-items-center justify-content-center pl-md-5 min-vh-100"
       >
-        <div class="flex flex-column pl-0 ml-0 pl-xl-5 ml-xl-5">
-          <div class="ml-lg-5">
+        <div class="flex flex-column pl-0 ml-md-0 ml-lg-5">
+          <div class="ml-0 p-5 text-center text-lg-left ml-lg-5">
             <div class="d-flex align-items-center">
               <hr class="w-25" />
               <p class="font-raleway my-auto px-2">Work-Study</p>
             </div>
-            <!-- <h1 class="display-1 font-archivo-bold color-purple">
-              Work Here, <br />
-              Study There.
-            </h1> -->
             <h1 class="display-1 font-archivo-bold color-purple">
               Work as you Study!
             </h1>
-            <p class="col-xl-9 col-md-10 col-12 font-raleway mb-5 mt-3">
+            <p
+              class="col-xl-9 col-md-9 col-12 font-raleway my-4 mx-auto mx-lg-0"
+            >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Expedita, sint dolore! Consequatur totam accusantium, placeat
               ullam natus, maiores quo libero dolorem ipsam, officia dolor
-              quidem? Explicabo est aut laboriosam quisquam! Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit.
+              quidem?
             </p>
             <div class="row">
-              <div class="col-12 col-sm-10 col-md-7">
+              <div
+                class="col-10 col-sm-8 col-md-6 col-lg-7 text-left mx-auto mx-lg-0"
+              >
                 <button
                   class="btn btn-block bg-purple font-archivo-bold px-5 py-3 text-white rounded-10"
                 >
@@ -91,7 +119,50 @@
           </div>
         </div>
       </div>
-      <div class="col-6" id="landing"></div>
+      <div
+        class="col-12 col-lg-6 min-vh-100 d-flex justify-content-center align-items-center"
+        id="landing"
+      >
+        <div class="d-flex flex-column align-items-center">
+          <div class="card rounded-10 shadow-lg bg-light">
+            <img
+              src="./assets/images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg"
+              alt="people"
+              class="card-img-top img-fluid rounded-10 shadow-lg bg-light img"
+            />
+          </div>
+          <div class="row">
+            <div
+              class="d-none d-md-block col-4 p-4 bg-light p-3 shadow-md rounded-10 text-center sub-cards mr-3 h-75 my-auto"
+            >
+              <h6 class="font-archivo-800">Adebayo Johnson</h6>
+              <small class="font-raleway">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet
+              </small>
+            </div>
+            <div
+              class="col-4 p-4 bg-light p-3 shadow-md rounded-10 text-center sub-card mr-3"
+            >
+              <h5 class="font-archivo-800">Akinkunmi Toluwalope</h5>
+              <small class="font-raleway">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                possimus nemo praesentium cum accusamus reprehenderit ducimus,
+                officiis harum velit
+              </small>
+            </div>
+            <div
+              class="d-none d-md-block col-4 p-4 bg-light p-3 shadow-md rounded-10 text-center sub-cards my-auto"
+            >
+              <h6 class="font-archivo-800">Jameson Jackson</h6>
+              <small class="font-raleway">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
+                ipsum dolor sit amet
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="d-none d-md-block row fixed-bottom mb-4 mx-auto">
       <div class="container px-lg-5">
