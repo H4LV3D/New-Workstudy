@@ -56,14 +56,18 @@
 .rounded-10 {
   border-radius: 10px;
 }
+.rounded-16 {
+  border-radius: 10px;
+}
 
 .min-vh-100 {
   min-height: 100vh;
 }
 
-.logo:hover {
+.logo:hover,
+.logo h4:hover {
   color: #996399 !important;
-  font-size: larger;
+  font-size: 18px;
 }
 
 #landing .card {
