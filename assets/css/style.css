@@ -28,6 +28,10 @@
   font-family: Archivo;
   font-weight: 800;
 }
+.font-noto-500 {
+  font-family: Noto;
+  font-weight: 500;
+}
 .font-raleway {
   font-family: Raleway;
   font-weight: 400;
