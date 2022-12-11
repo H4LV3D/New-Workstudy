@@ -1,3 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #996399;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-label {
+  margin-bottom: 4px !important;
+  padding: 0 9px !important;
+  font-size: 14px;
+}
+
 #landing {
   /* height: 100vh;
   width: 100%; */
@@ -86,4 +108,8 @@
   width: 12rem;
   height: 180px !important;
   /* z-index: 99; */
+}
+.nav-item .nav-link p,
+option {
+  font-size: 18px;
 }

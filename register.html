@@ -110,20 +110,158 @@
         </div>
       </nav>
     </header>
-    <div class="container py-5">
+    <div class="container py-5 px-5 px-sm-0">
       <h1 class="color-purple mt-5 font-archivo-bold">Register</h1>
-      <div class="row">
+      <div class="d-none d-md-block row mt-4">
         <ul class="nav nav-pills nav-fill">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a
+              class="nav-link py-3 bg-purple font-raleway active"
+              aria-current="page"
+              href="#"
+              >Personal Details</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Much longer nav link</a>
+            <a class="nav-link py-3 font-raleway color-purple" href="#">
+              <p>Work Interest</p>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link py-3 font-raleway color-purple" href="#">
+              <p>Experience / FeedBack</p>
+            </a>
           </li>
         </ul>
+      </div>
+      <div class="d-md-none row w-100 px-3 mt-4">
+        <select
+          name="register_mmenu"
+          id="register"
+          aria-label="Default select example"
+          class="form-select border-purple font-raleway px-3 py-3 rounded-10"
+        >
+          <option selected value="personal_details" class="font-raleway py-3">
+            Personal Details
+          </option>
+          <option value="Work_interest" class="font-raleway py-3">
+            Work Interest
+          </option>
+          <option value="feedback" class="font-raleway py-3">
+            FeedBack / Experience
+          </option>
+        </select>
+      </div>
+      <div class="row my-4">
+        <form action="" class="font-raleway">
+          <div class="row my-3">
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="first_names" class="form-label">First name</label>
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="first_names"
+                value="Mark"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="last_names" class="form-label">Last name</label>
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="last_names"
+                value="Otto"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="other_names" class="form-label">Other names</label>
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="other_names"
+                value="Ade"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="other_names" class="form-label">Matric No.</label>
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="other_names"
+                value="18CK024185"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="other_names" class="form-label">Level</label>
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="other_names"
+                value="400"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="other_names" class="form-label"
+                >Student Email Address</label
+              >
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="other_names"
+                value="Ade.loba@stu.cu.edu.ng"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="other_names" class="form-label">Course</label>
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="other_names"
+                value="Civil Engineering"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="other_names" class="form-label">Department</label>
+              <input
+                type="text"
+                class="form-control mb-4 py-2 px-3"
+                id="other_names"
+                value="Civil Engineering"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+              <label for="other_names" class="form-label"
+                >Telegram Contact</label
+              >
+              <input
+                type="tel"
+                class="form-control mb-4 py-2 px-3"
+                id="other_names"
+                value="08159433370"
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
