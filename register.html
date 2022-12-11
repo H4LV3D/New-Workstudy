@@ -111,12 +111,12 @@
       </nav>
     </header>
     <div class="container vh-100 py-5 px-5 px-xl-0 py-xl-0 px-sm-0">
-      <div class="row">
-        <div class="col-12 col-xl-3 d-none d-xl-block"></div>
-        <div class="col-12 col-xl-9">
+      <div class="row vh-100">
+        <div class="col-12 col-xl-3 d-none d-xl-block bg-purple"></div>
+        <div class="col-12 col-xl-9 p-xl-5">
           <h1 class="color-purple mt-5 font-archivo-bold">Register</h1>
           <div class="d-none d-md-block row mt-4">
-            <ul class="nav nav-pills nav-fill">
+            <ul class="nav nav-pills nav-fill px-3">
               <li class="nav-item">
                 <a
                   class="nav-link py-3 bg-purple font-raleway active"
@@ -137,12 +137,12 @@
               </li>
             </ul>
           </div>
-          <div class="d-md-none row w-100 px-3 mt-4">
+          <div class="d-md-none row w-100 mt-4 mx-auto">
             <select
               name="register_mmenu"
               id="register"
               aria-label="Default select example"
-              class="form-select border-purple font-raleway px-3 py-3 rounded-10"
+              class="form-select border-purple font-raleway p-3 rounded-10"
             >
               <option
                 selected
@@ -159,7 +159,7 @@
               </option>
             </select>
           </div>
-          <div class="row my-4">
+          <div class="row my-4 px-xl-4">
             <form action="" class="font-raleway">
               <div class="row my-3">
                 <div class="col-12 col-sm-6 col-lg-4">
@@ -268,6 +268,16 @@
                     required
                   />
                   <div class="valid-feedback">Looks good!</div>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-12 col-lg-4 d-lg-flex justify-content-start">
+                  <button
+                    type="submit"
+                    class="btn bg-purple border-purple py-3 px-5 w-100 text-white font-archivo-bold"
+                  >
+                    Proceed
+                  </button>
                 </div>
               </div>
             </form>
