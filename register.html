@@ -113,31 +113,41 @@
     <div class="container vh-100 py-5 px-5 px-xl-0 py-xl-0 px-sm-0">
       <div class="row vh-100">
         <div class="col-12 col-xl-3 d-none d-xl-block bg-purple"></div>
-        <div class="col-12 col-xl-9 p-xl-5">
+        <div class="col-12 col-xl-9 col-xxl-8 p-xl-5">
           <h1 class="color-purple mt-5 font-archivo-bold">Register</h1>
-          <div class="d-none d-md-block row mt-4">
+          <div class="d-none d-md-block row mt-5">
             <ul class="nav nav-pills nav-fill px-3">
               <li class="nav-item">
                 <a
                   class="nav-link py-3 bg-purple font-raleway active"
                   aria-current="page"
                   href="#"
-                  >Personal Details</a
+                >
+                  <i class="fas fa-user-circle fa-fw fa-lg"></i>
+                  Personal Details</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link py-3 font-raleway color-purple" href="#">
-                  <p>Work Interest</p>
+                <a
+                  class="nav-link py-3 font-raleway color-purple d-flex align-items-center justify-content-center"
+                  href="#"
+                >
+                  <i class="fas fa-briefcase fa-lg fa-fw pe-3"></i>
+                  <p class="my-auto">Work Interest</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link py-3 font-raleway color-purple" href="#">
-                  <p>Experience / FeedBack</p>
+                <a
+                  class="nav-link py-3 font-raleway color-purple d-flex align-items-center justify-content-center"
+                  href="#"
+                >
+                  <i class="fas fa-pen fa-lg fa-fw pe-3"></i>
+                  <p class="my-auto">Experience / FeedBack</p>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="d-md-none row w-100 mt-4 mx-auto">
+          <div class="d-md-none row w-100 mt-3 mx-auto">
             <select
               name="register_mmenu"
               id="register"
@@ -149,6 +159,7 @@
                 value="personal_details"
                 class="font-raleway py-3"
               >
+                <i class="fas fa-user-circle fa-fw fa-lg"></i>
                 Personal Details
               </option>
               <option value="Work_interest" class="font-raleway py-3">
@@ -159,9 +170,9 @@
               </option>
             </select>
           </div>
-          <div class="row my-4 px-xl-4">
+          <div class="row my-4 px-xl-4" id="personal_details">
             <form action="" class="font-raleway">
-              <div class="row my-3">
+              <div class="row my-lg-5 my-3">
                 <div class="col-12 col-sm-6 col-lg-4">
                   <label for="first_names" class="form-label">First name</label>
                   <input
@@ -270,13 +281,14 @@
                   <div class="valid-feedback">Looks good!</div>
                 </div>
               </div>
-              <div class="row my-3">
-                <div class="col-12 col-lg-4 d-lg-flex justify-content-start">
+              <div class="row my-3 d-flex justify-content-end mt-3">
+                <div class="col-12 col-lg-4 mt-5">
                   <button
                     type="submit"
                     class="btn bg-purple border-purple py-3 px-5 w-100 text-white font-archivo-bold"
                   >
                     Proceed
+                    <i class="fas fa-arrow-right fa-lg fa-fw"></i>
                   </button>
                 </div>
               </div>
@@ -285,5 +297,6 @@
         </div>
       </div>
     </div>
+    <script></script>
   </body>
 </html>
