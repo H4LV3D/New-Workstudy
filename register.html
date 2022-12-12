@@ -119,17 +119,17 @@
             <ul class="nav nav-pills nav-fill px-3">
               <li class="nav-item">
                 <a
-                  class="nav-link py-3 bg-purple font-raleway active"
+                  class="nav-link py-3 font-raleway d-flex align-items-center justify-content-center reg-nav active"
                   aria-current="page"
                   href="#"
                 >
-                  <i class="fas fa-user-circle fa-fw fa-lg"></i>
-                  Personal Details</a
-                >
+                  <i class="fas fa-user-circle fa-fw fa-lg pe-4"></i>
+                  <p class="my-auto">Personal Details</p>
+                </a>
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link py-3 font-raleway color-purple d-flex align-items-center justify-content-center"
+                  class="nav-link py-3 font-raleway color-purple d-flex align-items-center justify-content-center reg-nav"
                   href="#"
                 >
                   <i class="fas fa-briefcase fa-lg fa-fw pe-3"></i>
@@ -138,7 +138,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link py-3 font-raleway color-purple d-flex align-items-center justify-content-center"
+                  class="nav-link py-3 font-raleway color-purple d-flex align-items-center justify-content-center reg-nav"
                   href="#"
                 >
                   <i class="fas fa-pen fa-lg fa-fw pe-3"></i>
@@ -297,6 +297,13 @@
         </div>
       </div>
     </div>
-    <script></script>
+    <script>
+      // $('.nav-link')
+      let navlist = document.getElementsByClassName("reg-nav");
+      console.log(navlist);
+      navlist.forEach((element) => {
+        element.preventDefault;
+      });
+    </script>
   </body>
 </html>
