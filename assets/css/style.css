@@ -6,6 +6,11 @@
 a {
   text-decoration: none !important;
 }
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden !important;
+}
 
 @media (min-width: 1200px) {
   .container,
@@ -15,6 +20,24 @@ a {
   .container-xl {
     max-width: 100%;
   }
+}
+
+@media (min-width: 320px) and (max-width: 380px) {
+  .img {
+    width: 270px !important;
+    background-color: transparent;
+  }
+  .card {
+    background-color: transparent;
+  }
+}
+
+.img {
+  width: 350px;
+  /* height: ; */
+}
+#row {
+  margin-top: -15% !important;
 }
 
 .form-control:focus,
@@ -38,6 +61,7 @@ a {
 
 #landing {
   background-color: #dfdbe5;
+  padding: auto 0px !important;
   background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -119,7 +143,6 @@ a {
 #landing .sub-cards {
   width: 12rem;
   height: 180px !important;
-  /* z-index: 99; */
 }
 .nav-item .nav-link p,
 option {
